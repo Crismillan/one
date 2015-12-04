@@ -20,7 +20,9 @@ public class PRUEBA3 {
             "4.-Búsquedas y totales\n"+
             "5.-Integrantes\n"+
             "6.-salir\n");
+    
     int menu;
+    
    Scanner in=new Scanner(System.in);
     menu = in.nextInt();
     Usuario usuario=new Usuario();
